@@ -1,0 +1,14 @@
+[
+  {
+    "patient_id": "P001",
+    "note": "Mr. Thomas, a 68-year-old male with diabetes and hypertension, presented with dizziness and elevated blood sugar. Started on insulin glargine 10 units nightly and advised low-carb diet. Scheduled endocrinology follow-up in 1 month."
+  },
+  {
+    "patient_id": "P002",
+    "note": "Ms. Rivera, a 45-year-old female with asthma, reported increased wheezing and cough. Given nebulized albuterol and oral prednisone. Plan to taper steroids and continue inhaled corticosteroid. Follow-up with pulmonology in 2 weeks."
+  },
+  {
+    "patient_id": "P003",
+    "note": "Mr. Patel, a 59-year-old male post coronary stent placement, presented for routine follow-up. Continues aspirin and atorvastatin. Blood pressure well-controlled. Encouraged cardiac rehab and lifestyle modification."
+  }
+]
