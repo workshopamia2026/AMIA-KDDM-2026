@@ -809,7 +809,7 @@ padding: 10px 0 40px 0;
 }
 
 #submission .poster-item {
-  flex: 1 1 calc(50% - 20px); /* Two columns */
+  flex: 1 1 calc(50% - 10px); /* Two columns */
   background: rgba(255, 255, 255, 0.1);
   padding: 15px;
   border-radius: 8px;
@@ -817,6 +817,10 @@ padding: 10px 0 40px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 
+}
+
+#submission .poster-item:last-child {
+  flex-grow: 0; /* last card stays half width */
 }
 
 #submission .poster-item strong {
@@ -1941,6 +1945,7 @@ padding: 10px 0 40px 0;
 
   #submission .poster-grid {
     flex-direction: column; /* Stack items vertically */
+    align-items: stretch; 
   }
 }
 
