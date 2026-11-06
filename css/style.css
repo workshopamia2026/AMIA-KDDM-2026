@@ -1276,6 +1276,45 @@ padding: 10px 0 40px 0;
   margin-bottom: 0;
 }
 
+#schedule .tutorial-materials ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#schedule .tutorial-materials li a {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+#schedule .tutorial-materials li a:hover {
+  background: #f82249;
+  color: #fff;
+  text-decoration: none;
+}
+
+#schedule .tutorial-materials li a:hover i {
+  color: #fff;
+}
+
+#schedule a[href^="slides/"] {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+#schedule a[href^="slides/"]:hover {
+  background: #f82249;
+  color: #fff;
+  text-decoration: none;
+}
+
+#schedule a[href^="slides/"]:hover i {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
