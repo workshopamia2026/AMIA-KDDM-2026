@@ -1315,6 +1315,26 @@ padding: 10px 0 40px 0;
   color: #fff;
 }
 
+#schedule a[href^="slides/"],
+#schedule a[href*="/releases/download/"] {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+#schedule a[href^="slides/"]:hover,
+#schedule a[href*="/releases/download/"]:hover {
+  background: #f82249;
+  color: #fff;
+  text-decoration: none;
+}
+
+#schedule a[href^="slides/"]:hover i,
+#schedule a[href*="/releases/download/"]:hover i {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
